@@ -2,15 +2,20 @@
 
 ## By: Gino Freud D. Hobayan  (https://linktr.ee/ginohobayan)
 
+<img width="923" alt="Google DA - professional cert" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/2be43210-428b-4650-a52e-4a35b0464dce">
+
+
+<br><br><br>
+
+## **Case Study: How Does a Bike-Share Navigate Speedy Success?**
+
 <img width="497" alt="Case Study - Bike share" src="https://github.com/Gino-Freud-Hobayan/Google-DA-Capstone_Gino/assets/117270964/41bb1109-ce24-4b57-b176-279d297ba30d">
 
+This is my Capstone Project for the [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics)
 
 
 <br><br>
 
-This is my Capstone Project for the [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics)
-
-<br>
 
 **In this Scenario:**
 
@@ -142,6 +147,7 @@ Data Cleaning to ensure data integrity
 
 **Descriptive statistics and analysis of the data to find patterns, trends, and insights.**
 
+<br><br>
 
 ## Descriptive Statistics:
 

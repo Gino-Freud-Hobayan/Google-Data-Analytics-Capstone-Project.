@@ -102,6 +102,14 @@ recommended marketing program.
 
 #### Now that I’ve identified the issues, how can I help the stakeholders resolve their questions?
 
+<br>
+
+## **Business Task:**
+
+How do annual members and casual riders differ, what makes casual riders purchase a membership
+and how digital media could affect the company's marketing tactics. 
+
+<br>
 
 
 

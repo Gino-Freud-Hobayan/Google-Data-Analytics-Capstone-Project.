@@ -83,7 +83,7 @@ Moreno and her team are interested in analyzing the Cyclistic historical bike tr
 ## Stakeholders:
 
 **1. Lily Moreno:**
-The director of marketing and your manager. Moreno is responsible for the development of campaigns and initiatives to promote the bike-share program.
+The director of marketing and my manager in this scenario. Moreno is responsible for the development of campaigns and initiatives to promote the bike-share program.
 These may include email, social media, and other channels.
 
 **2. Cyclistic marketing analytics team:**

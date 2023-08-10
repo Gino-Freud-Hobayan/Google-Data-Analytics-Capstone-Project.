@@ -143,7 +143,9 @@ In this step, I will be **using Cyclistic's historical trip data to analyze and 
 2.  Divvy system data (first-party data) is owned by the City of Chicago and released on a monthly schedule.
 3.  The data is also processed to remove trips that are taken by staff as they service and inspect the system.
 4.  Every ride data is anonymous.
-5.  Are there issues with bias or credibility in this data? none. I used the ROCCC analysis to make sure
+5.  Are there issues with bias or credibility in this data? none. I used the ROCCC analysis to check.
+
+<br>
 
 ### ROCCC for the Reliability of the Dataset
 The dataset follows the ROCCC Analysis as described below:
@@ -156,6 +158,28 @@ The dataset follows the ROCCC Analysis as described below:
 
 <br><br>
 
+6. Structured data.
+
+Each csv file consists of 13 columns:
+
+- ride_id,
+- rideable_type,
+- started_at,
+- ended_at,
+- start_station_name,
+- start_station_id,
+- end_station_name,
+- end_station_id,
+- start_lat,
+- start_lng,
+- end_lat,
+- end_lng,
+- member_casual 
+
+
+
+<br><br>
+
 ## **Limitations:**
     
 #### 1. The analysis is based on the available dataset from Cyclistic. 
@@ -164,8 +188,13 @@ The dataset follows the ROCCC Analysis as described below:
 
 #### 3. Additionally, the dataset contains a lot of null values thus affecting the accuracy of the analysis.
 
-#### 4. For this analysis, we will only analyze historical trip data about June 2023.
+#### 4. For this analysis, we will only analyze historical trip data from June 2022 to June 2023. 
+#### (I have been instructed to only use the most recent 12 months of data.)
  
+<img width="716" alt="June 2022 - June 2023 data" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/d4b771cd-b9e2-4dae-b596-a64ac3459cf4">
+
+
+
 
 <br><br><br><br><br>
 

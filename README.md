@@ -106,21 +106,28 @@ recommended marketing program.
 
 ## **Business Task:**
 
-How do annual members and casual riders use Cyclistic bikes differently? 
+**How do annual members and casual riders use Cyclistic bikes differently?**
 
-What makes casual riders purchase a membership and how digital media could affect the company's marketing tactics. 
+**What makes casual riders purchase a membership and how digital media could affect the company's marketing tactics.**
 
 <br>
 
 ## **Deliverables:**
-1. A clear statement of the business task
-2. A description of all data sources used
-3. Documentation of any cleaning or manipulation of data
-4. A summary of my analysis
-5. Supporting visualizations and key findings
-6. My top three recommendations based on my analysis
 
-<br><br><br>
+**1. A clear statement of the business task**
+
+**2. A description of all data sources used**
+
+**3. Documentation of any cleaning or manipulation of data**
+
+**4. A summary of my analysis**
+
+**5. Supporting visualizations and key findings**
+
+**6. My top three recommendations based on my analysis**
+
+
+<br><br><br><br><br>
 
 
 
@@ -147,7 +154,7 @@ In this step, I will be using Cyclistic's historical trip data to analyze and id
 
 
 
-<br><br><br>
+<br><br><br><br><br>
 
 # 3. PROCESS
 
@@ -165,7 +172,7 @@ Data Cleaning to ensure data integrity
 - Fill the missing values
 
 
-<br><br><br>
+<br><br><br><br><br>
 
 # 4. ANALYZE
 
@@ -181,7 +188,7 @@ Data Cleaning to ensure data integrity
 
 
 
-<br><br><br><br>
+<br><br><br><br><br><br>
 
 
 # 5. SHARE
@@ -201,7 +208,7 @@ Tableau link for the Data visualization:
 
 
 
-<br><br><br>
+<br><br><br><br><br>
 
 
 # 6. ACT

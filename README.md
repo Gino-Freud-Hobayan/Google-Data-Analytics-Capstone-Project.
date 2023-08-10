@@ -106,16 +106,23 @@ recommended marketing program.
 
 ## **Business Task:**
 
-How do annual members and casual riders differ, what makes casual riders purchase a membership
-and how digital media could affect the company's marketing tactics. 
+How do annual members and casual riders use Cyclistic bikes differently? 
+
+What makes casual riders purchase a membership and how digital media could affect the company's marketing tactics. 
 
 <br>
 
-
-
-
+## **Deliverables:**
+1. A clear statement of the business task
+2. A description of all data sources used
+3. Documentation of any cleaning or manipulation of data
+4. A summary of my analysis
+5. Supporting visualizations and key findings
+6. My top three recommendations based on my analysis
 
 <br><br><br>
+
+
 
 # 2. PREPARE
 
@@ -127,6 +134,17 @@ The dataset follows the ROCCC Analysis as described below:
 - Comprehensive - yes, not missing important information
 - Current - yes, updated monthly
 - Cited - yes
+
+<br><br>
+
+In this step, I will be using Cyclistic's historical trip data to analyze and identify trends.
+
+## **Prepare the data:**
+- 
+
+
+
+
 
 
 <br><br><br>

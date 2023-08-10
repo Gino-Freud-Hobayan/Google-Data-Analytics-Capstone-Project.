@@ -206,8 +206,26 @@ Each csv file consists of 13 columns:
 
 ### **Data Cleaning to ensure data integrity**
 
+<br>
+
+
+## CREATE DATABASE and CREATE TABLE (SQL)
+
+SQL Query:
+
+```
+SELECT
+  *
+FROM
+  ______
+
+```
 
 <br>
+
+
+
+
 
 ## Check for Duplicates
 
@@ -280,7 +298,7 @@ FROM
 
 ```
 
-<br>
+<br><br>
 
 
 
@@ -296,7 +314,7 @@ FROM
 
 ```
 
-<br>
+<br><br>
 
 
 
@@ -312,7 +330,7 @@ FROM
 
 ```
 
-<br>
+<br><br>
 
 
 

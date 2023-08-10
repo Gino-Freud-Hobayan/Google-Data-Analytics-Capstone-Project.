@@ -158,18 +158,56 @@ In this step, I will be using Cyclistic's historical trip data to analyze and id
 
 # 3. PROCESS
 
-Data Cleaning to ensure data integrity
+### **Data Cleaning to ensure data integrity**
 
 
-### Data Cleaning:
-- Check for Duplicates
+<br>
+
+## Check for Duplicates
+
+SQL Query:
+
+```
+SELECT
+  *
+FROM
+  ______
+
+```
+
+<br>
 
 
-- Check for Null values
+## Check for Null values
+
+SQL Query:
+
+```
+SELECT
+  *
+FROM
+  ______
+
+```
+
+<br>
 
 
 
-- Fill the missing values
+## Fill the missing values
+
+SQL Query:
+
+```
+SELECT
+  *
+FROM
+  ______
+
+```
+
+<br>
+
 
 
 <br><br><br><br><br>
@@ -183,6 +221,54 @@ Data Cleaning to ensure data integrity
 <br><br>
 
 ## Descriptive Statistics:
+
+<br>
+
+SQL Query:
+
+```
+SELECT
+  *
+FROM
+  ______
+
+```
+
+<br>
+
+
+
+
+
+SQL Query:
+
+```
+SELECT
+  *
+FROM
+  ______
+
+```
+
+<br>
+
+
+
+
+
+SQL Query:
+
+```
+SELECT
+  *
+FROM
+  ______
+
+```
+
+<br>
+
+
 
 
 

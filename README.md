@@ -133,6 +133,18 @@ recommended marketing program.
 
 # 2. PREPARE
 
+In this step, I will be **using Cyclistic's historical trip data to analyze and identify trends.**
+
+<br>
+
+## **Prepare the data:**
+
+1. The Data is located in a cloud storage in zip format (csv file). This data is publicly available and I got access to it when I got the PDF
+2.  Divvy system data (first-party data) is owned by the City of Chicago and released on a monthly schedule.
+3.  The data is also processed to remove trips that are taken by staff as they service and inspect the system.
+4.  Every ride data is anonymous.
+5.  Are there issues with bias or credibility in this data? none. I used the ROCCC analysis to make sure
+
 ### ROCCC for the Reliability of the Dataset
 The dataset follows the ROCCC Analysis as described below:
 
@@ -144,17 +156,22 @@ The dataset follows the ROCCC Analysis as described below:
 
 <br><br>
 
-In this step, I will be using Cyclistic's historical trip data to analyze and identify trends.
+## **Limitations:**
+    
+#### 1. The analysis is based on the available dataset from Cyclistic. 
 
-## **Prepare the data:**
-- 
+#### 2. Most of the data is anonymous (due to data privacy)  
 
+#### 3. Additionally, the dataset contains a lot of null values thus affecting the accuracy of the analysis.
 
-
-
-
+#### 4. For this analysis, we will only analyze historical trip data about June 2023.
+ 
 
 <br><br><br><br><br>
+
+
+
+
 
 # 3. PROCESS
 

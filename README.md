@@ -17,9 +17,10 @@ This is my Capstone Project for the [Google Data Analytics Professional Certific
 <br><br>
 
 
-**In this Scenario:**
+### **In this Scenario:**
 
 I am a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. 
+
 The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. 
 
 Therefore, my team wants to understand how casual riders and annual members use Cyclistic bikes differently. 
@@ -188,10 +189,11 @@ Each csv file consists of 13 columns:
 
 #### 3. Additionally, the dataset contains a lot of null values thus affecting the accuracy of the analysis.
 
-#### 4. For this analysis, we will only analyze historical trip data from June 2022 to June 2023. 
-#### (I have been instructed to only use the most recent 12 months of data.)
+#### 4. For this analysis, we will only analyze historical trip data from July 2022 to June 2023 (12 csv files).
+#### I will only use the most recent 12 months of data.
  
-<img width="716" alt="June 2022 - June 2023 data" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/d4b771cd-b9e2-4dae-b596-a64ac3459cf4">
+<img width="716" alt="July 2022 - June 2023 data" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/94f8c4bf-c70b-463e-aea9-28f50a4bee31">
+
 
 
 

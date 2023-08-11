@@ -32,6 +32,8 @@ visualizations.
 <br>
 
 The six phases of the data analysis process I learned from the course:
+![6 phases - Googla DA](https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/f9c7d03b-f6d0-408f-bf37-07c007ef790d)
+
 1. ASK
 2. PREPARE
 3. PROCESS
@@ -40,6 +42,9 @@ The six phases of the data analysis process I learned from the course:
 6. ACT
 
 <br><br><br><br>
+
+
+
 
 # 1. ASK
 
@@ -207,6 +212,10 @@ Each csv file consists of 13 columns:
 # 3. PROCESS
 
 ### **Data Cleaning to ensure data integrity**
+
+<img width="289" alt="Data cleaning img" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/e6e966a8-20ae-49a7-ac73-31b08ef45247">
+
+
 
 <br>
 

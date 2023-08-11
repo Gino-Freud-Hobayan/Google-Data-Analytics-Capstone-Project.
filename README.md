@@ -33,7 +33,6 @@ visualizations.
 
 The six phases of the data analysis process I learned from the course:
 ![6 phases - Googla DA](https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/f9c7d03b-f6d0-408f-bf37-07c007ef790d)
-
 1. ASK
 2. PREPARE
 3. PROCESS
@@ -215,8 +214,9 @@ Each csv file consists of 13 columns:
 
 <img width="289" alt="Data cleaning img" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/e6e966a8-20ae-49a7-ac73-31b08ef45247">
 
-
-
+<br>
+<br>
+<br>
 <br>
 
 
@@ -253,7 +253,7 @@ FROM
 <br>
 
 
-## Check for Null values
+## Check for null values
 
 SQL Query:
 
@@ -269,7 +269,7 @@ FROM
 
 
 
-## Fill the missing values
+## Fill the null/missing values
 
 SQL Query:
 
@@ -299,21 +299,7 @@ FROM
 
 <br>
 
-SQL Query:
-
-```
-SELECT
-  *
-FROM
-  ______
-
-```
-
-<br><br>
-
-
-
-
+## Sample
 
 SQL Query:
 
@@ -329,7 +315,24 @@ FROM
 
 
 
+## Sample
 
+SQL Query:
+
+```
+SELECT
+  *
+FROM
+  ______
+
+```
+
+<br><br>
+
+
+
+
+## Sample
 
 SQL Query:
 

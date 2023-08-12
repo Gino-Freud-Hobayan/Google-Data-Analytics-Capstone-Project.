@@ -33,16 +33,8 @@ visualizations.
 
 The six phases of the data analysis process I learned from the course:
 ![6 phases - Googla DA](https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/f9c7d03b-f6d0-408f-bf37-07c007ef790d)
-1. ASK
-2. PREPARE
-3. PROCESS
-4. ANALYZE
-5. SHARE
-6. ACT
 
-<br><br><br><br>
-
-
+<br><br><br>
 
 
 # 1. ASK

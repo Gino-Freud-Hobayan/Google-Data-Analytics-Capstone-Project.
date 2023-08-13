@@ -250,8 +250,10 @@ CREATE TABLE BikeShare_table
 	member_casual VARCHAR(6)
 );
 
-
 ```
+	
+</pre>
+
 
 <br>
 
@@ -292,6 +294,13 @@ GO
 
 <br>
 
+
+
+<pre>
+```sql
+SELECT * FROM TABLE;
+```
+</pre>
 
 
 

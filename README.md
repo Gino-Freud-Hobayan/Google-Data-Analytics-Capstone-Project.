@@ -223,7 +223,7 @@ Each csv file consists of 13 columns:
 
 SQL Query:
 
-```
+```sql
 CREATE DATABASE Bikeshare_database;
 
 
@@ -251,8 +251,6 @@ CREATE TABLE BikeShare_table
 );
 
 ```
-	
-</pre>
 
 
 <br>
@@ -261,7 +259,7 @@ CREATE TABLE BikeShare_table
 
 ## Get the Head() and a general view of the data
 
-```
+```sql
 SELECT TOP 50
 	*
 FROM 
@@ -283,7 +281,7 @@ FROM
 
 SQL Query:
 
-```
+```sql
 -- Create a full backup of the Bikeshare_database
 BACKUP DATABASE Bikeshare_database
 TO DISK = 'C:\Backup\Bikeshare_backup.bak'
@@ -296,11 +294,9 @@ GO
 
 
 
-<pre>
-```sql
-SELECT * FROM TABLE;
-```
-</pre>
+
+
+
 
 
 
@@ -310,7 +306,7 @@ SELECT * FROM TABLE;
 
 SQL Query:
 
-```
+```sql
 SELECT
   *
 FROM
@@ -325,7 +321,7 @@ FROM
 
 SQL Query:
 
-```
+```sql
 SELECT
   *
 FROM
@@ -341,7 +337,7 @@ FROM
 
 SQL Query:
 
-```
+```sql
 SELECT
   *
 FROM
@@ -371,7 +367,7 @@ FROM
 
 SQL Query:
 
-```
+```sql
 SELECT
   *
 FROM
@@ -387,7 +383,7 @@ FROM
 
 SQL Query:
 
-```
+```sql
 SELECT
   *
 FROM
@@ -404,7 +400,7 @@ FROM
 
 SQL Query:
 
-```
+```sql
 SELECT
   *
 FROM
@@ -417,6 +413,19 @@ FROM
 
 
 
+## Sample
+
+SQL Query:
+
+```sql
+SELECT
+  *
+FROM
+  ______
+
+```
+
+<br><br>
 
 
 

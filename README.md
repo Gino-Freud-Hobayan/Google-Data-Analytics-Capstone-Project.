@@ -220,10 +220,12 @@ Each csv file consists of 13 columns:
 SQL Query:
 
 ```
-SELECT
-  *
-FROM
-  ______
+CREATE DATABASE dbTrip;
+
+
+
+
+
 
 ```
 

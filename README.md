@@ -216,20 +216,63 @@ Each csv file consists of 13 columns:
 
 
 ## CREATE DATABASE and CREATE TABLE (SQL)
+- DATABASE NAME = Bikeshare_database
+- TABLE NAME = BikeShare_table
+
+
 
 SQL Query:
 
 ```
-CREATE DATABASE dbTrip;
+CREATE DATABASE Bikeshare_database;
 
 
+-- Specifying the database we want to use
+USE Bikeshare_database;
 
 
+-- Create table that will hold all the trips data
+-- six decimal places for longitude and latitude for accuracy.
+CREATE TABLE BikeShare_table
+(
+	pk_ride_id VARCHAR(16) PRIMARY KEY NOT NULL,
+	rideable_type VARCHAR(13),
+	started_at DATETIME,
+	ended_at DATETIME,
+	start_station_name VARCHAR(100),
+	start_station_id VARCHAR(50),
+	end_station_name VARCHAR(100),
+	end_station_id VARCHAR(50),
+	start_lat DECIMAL(8,6),
+	start_lng DECIMAL(9,6),
+	end_lat DECIMAL(8,6),
+	end_lng DECIMAL(9,6),
+	member_casual VARCHAR(6)
+);
 
 
 ```
 
 <br>
+
+
+
+## Get the Head() and a general view of the data
+
+```
+SELECT TOP 50
+	*
+FROM 
+	BikeShare_table;
+```
+
+
+<img width="752" alt="Head + general view1" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/b76aa0c3-dc17-4205-8bc6-1b1805a07900">
+<img width="229" alt="Head + general view2" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/4540b9be-db1a-4249-a78a-1b385913f396">
+
+
+
+<br><br><br>
 
 
 

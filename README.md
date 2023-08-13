@@ -277,6 +277,25 @@ FROM
 
 
 
+## CREATE A BACKUP DATABASE
+
+SQL Query:
+
+```
+-- Create a full backup of the Bikeshare_database
+BACKUP DATABASE Bikeshare_database
+TO DISK = 'C:\Backup\Bikeshare_backup.bak'
+WITH FORMAT, NAME = 'Bikeshare_backup';
+GO
+
+```
+
+<br>
+
+
+
+
+
 
 ## Check for Duplicates
 

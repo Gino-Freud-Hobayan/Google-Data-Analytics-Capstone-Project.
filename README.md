@@ -301,7 +301,7 @@ FROM
 
 
 
-# INSPECT THE DATA:
+# DATA CLEANING:
 
 <br>
 

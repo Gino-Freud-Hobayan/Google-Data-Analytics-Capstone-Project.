@@ -334,6 +334,18 @@ HAVING COUNT(pk_ride_id) > 1;
 SQL Query:
 
 ```sql
+
+/* 
+WHEN the column is:
+- IS NULL 
+- OR  ('NA') 
+- OR ('N/A') 
+- OR LEN(column) = zero 
+
+THEN make it equal to 1.
+*/
+
+
 SELECT
 	COUNT (*) AS total_records,
 	COUNT (CASE WHEN pk_ride_id IS NULL OR pk_ride_id = 'NA' OR pk_ride_id = 'N/A' OR LEN(pk_ride_id) = 0 THEN 1 END) AS pk_ride_id,
@@ -360,11 +372,11 @@ FROM BikeShare_table;
 - Some columns have null values: start_station_name, start_station_id, end_station_name, end_station_id, end_lat, end_lng
 - We will have to deal with these null values as they will affect our data analysis later.
 
-<br>
+<br><br>
 
 
 
-## Leading and Trailing spaces
+## LEADING and TRAILING spaces
 
 SQL Query:
 
@@ -376,7 +388,7 @@ FROM
 
 ```
 
-<br>
+<br<br>
 
 
 
@@ -393,7 +405,7 @@ FROM
 
 ```
 
-<br>
+<br><br>
 
 
 
@@ -412,7 +424,7 @@ FROM
 
 ```
 
-<br>
+<br><br>
 
 
 

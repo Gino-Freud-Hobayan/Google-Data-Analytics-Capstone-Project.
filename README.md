@@ -272,7 +272,7 @@ WITH (
 
 
 
-## Get the Head() and a general view of the data
+## Get the Head(50) and a general view of the data
 
 ```sql
 SELECT TOP 50

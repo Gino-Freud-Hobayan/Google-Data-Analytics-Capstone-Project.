@@ -301,11 +301,9 @@ FROM
 
 
 
+# INSPECT THE DATA:
 
-
-
-
-
+<br>
 
 ## Check for Duplicates
 
@@ -313,13 +311,22 @@ SQL Query:
 
 ```sql
 SELECT
-  *
-FROM
-  ______
+	pk_ride_id,
+	COUNT(pk_ride_id) AS count_of_ride_id
+FROM 
+	BikeShare_table
+GROUP BY 
+	pk_ride_id
+HAVING COUNT(pk_ride_id) > 1;
+
+
+-- No duplicates on pk_ride_id
 
 ```
 
-<br>
+<img width="160" alt="NO DUPLICATES - pk_ride_id" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/0271c5d7-c78f-4bc1-891e-34ff9896104d">
+
+<br><br>
 
 
 ## Check for null values
@@ -328,6 +335,41 @@ SQL Query:
 
 ```sql
 SELECT
+	COUNT (*) AS total_records,
+	COUNT (CASE WHEN pk_ride_id IS NULL OR pk_ride_id = 'NA' OR pk_ride_id = 'N/A' OR LEN(pk_ride_id) = 0 THEN 1 END) AS pk_ride_id,
+	COUNT (CASE WHEN rideable_type IS NULL OR rideable_type = 'NA' OR rideable_type = 'N/A' OR LEN(rideable_type) = 0 THEN 1 END) AS rideable_type,
+	COUNT (CASE WHEN started_at IS NULL OR ISDATE(started_at) = 0 THEN 1 END) AS started_at,
+	COUNT (CASE WHEN ended_at IS NULL OR ISDATE(ended_at) = 0  THEN 1 END) AS ended_at,
+	COUNT (CASE WHEN start_station_name IS NULL OR start_station_name = 'NA' OR start_station_name = 'N/A' OR LEN(start_station_name) = 0 THEN 1 END) AS start_station_name,
+	COUNT (CASE WHEN start_station_id IS NULL OR start_station_id = 'NA' OR start_station_id = 'N/A' OR LEN(start_station_id) = 0 THEN 1 END) AS start_station_id,
+	COUNT (CASE WHEN end_station_name IS NULL OR end_station_name = 'NA' OR end_station_name = 'N/A' OR LEN(end_station_name) = 0  THEN 1 END) AS end_station_name,
+	COUNT (CASE WHEN end_station_id IS NULL OR end_station_id = 'NA' OR end_station_id = 'N/A' OR LEN(end_station_id) = 0 THEN 1 END) AS end_station_id,
+	COUNT (CASE WHEN start_lat IS NULL THEN 1 END) AS start_lat,
+	COUNT (CASE WHEN start_lng IS NULL THEN 1 END) AS start_lng,
+	COUNT (CASE WHEN end_lat IS NULL THEN 1 END) AS end_lat,
+	COUNT (CASE WHEN end_lng IS NULL THEN 1 END) AS end_lng,
+	COUNT (CASE WHEN member_casual IS NULL OR member_casual = 'NA' OR member_casual = 'N/A' OR LEN(member_casual) = 0 THEN 1 END) AS member_casual
+FROM BikeShare_table;
+
+```
+<img width="815" alt="CHECK ALL COLUMNS FOR NULL VALUES" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/9f130457-7a19-45b2-b872-381b1ca84ed0">
+
+
+
+#### Inference:
+- Some columns have null values: start_station_name, start_station_id, end_station_name, end_station_id, end_lat, end_lng
+- We will have to deal with these null values as they will affect our data analysis later.
+
+<br>
+
+
+
+## Leading and Trailing spaces
+
+SQL Query:
+
+```sql
+SELECT
   *
 FROM
   ______
@@ -335,6 +377,7 @@ FROM
 ```
 
 <br>
+
 
 
 
@@ -351,6 +394,26 @@ FROM
 ```
 
 <br>
+
+
+
+
+
+
+## Address Outliers
+
+SQL Query:
+
+```sql
+SELECT
+  *
+FROM
+  ______
+
+```
+
+<br>
+
 
 
 

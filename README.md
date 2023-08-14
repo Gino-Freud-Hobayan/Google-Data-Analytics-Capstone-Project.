@@ -250,6 +250,21 @@ CREATE TABLE BikeShare_table
 	member_casual VARCHAR(6)
 );
 
+
+--- Insert all the data from the .csv file into our database table 'BikeShare_table' for each month
+
+-- July 2022
+BULK INSERT BikeShare_table
+FROM "C:\Users\GINO\Desktop\Google Capstone\Cyclistic - bike share data\202207-divvy-tripdata.csv"
+WITH (
+		FORMAT = 'CSV',
+		FIELDTERMINATOR = ',',
+		ROWTERMINATOR = '\n',
+		FIRSTROW = 2			
+	);
+
+-- REPEATED THIS SAME PROCESS UNTIL ALL 12 CSV FILES HAVE BEEN UPLOADED.
+
 ```
 
 
@@ -279,20 +294,10 @@ FROM
 
 ## CREATE A BACKUP DATABASE
 
-SQL Query:
-
-```sql
--- Create a full backup of the Bikeshare_database
-BACKUP DATABASE Bikeshare_database
-TO DISK = 'C:\Backup\Bikeshare_backup.bak'
-WITH FORMAT, NAME = 'Bikeshare_backup';
-GO
-
-```
-
-<br>
+<img width="519" alt="BACKUP DATABASE - SUCCESSFUL" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/e4165326-261f-4d8d-bbd2-5c6e81462802">
 
 
+<br> <br>
 
 
 

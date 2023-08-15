@@ -294,8 +294,10 @@ FROM
 <img width="519" alt="BACKUP DATABASE - SUCCESSFUL" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/e4165326-261f-4d8d-bbd2-5c6e81462802">
 
 
-<br> <br>
-
+<br>
+<br>
+<br>
+<br>
 
 
 # DATA CLEANING:
@@ -306,8 +308,7 @@ FROM
 
 <br>
 <br>
-<br>
-<br>
+
 
 ## Check for Duplicates
 

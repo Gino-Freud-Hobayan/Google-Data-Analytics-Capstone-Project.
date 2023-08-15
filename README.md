@@ -124,7 +124,7 @@ recommended marketing program.
 
 **5. Supporting visualizations and key findings**
 
-**6. My top three recommendations based on my analysis**
+**6. My top recommendations based on my analysis**
 
 
 <br><br><br><br><br>
@@ -621,18 +621,33 @@ Tableau link for the Data visualization:
 
 # 6. ACT
 
-### Conclusion:
-
+In this Final step, I will share and present to stakeholders the summary of my insights/key findings
+that is backed up with compelling data insights and professional data visualizations.
 
 <br>
 
+### Conclusion:
 
 
-### Recommendations:
+
 
 <br><br>
 
-<br><br><br>
+### Recommendations:
+
+1. aa
+2. aaa
+3. aaaa
+4. aaaaa
+5. bbb
+6. bbbb
+
+
+
+<br>
+<br>
+<br>
+<br>
 
 
 

@@ -315,7 +315,13 @@ In this step, I will be processing and cleaning the data for exploratory data an
 
 I spent a lot of time on this step, especially in data cleaning in order to ensure data integrity prior to analysis.
 
+Working with clean data is very important in order to get valuable insights from our data analysis, 
+because if the data is dirty it will only lead to headaches and inaccurate results.
 
+#### "If the ladder is not leaning against the right wall, every step we take just gets us to the wrong place faster." 
+#### - Stephen Covey
+
+<br><br><br>
 
 # DATA CLEANING:
 

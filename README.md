@@ -381,8 +381,12 @@ FROM BikeShare_table;
 SQL Query:
 
 ```sql
-
 -- REMOVE THE TRAILING AND LEADING SPACES for columns with STRING dtypes only.
+
+-- LTRIM (removes leading spaces)
+-- RTRIM (removes trailing spaces)
+-- TRIM (removes both leading and trailing spaces)
+
 
 UPDATE BikeShare_table
 SET pk_ride_id = TRIM(pk_ride_id);

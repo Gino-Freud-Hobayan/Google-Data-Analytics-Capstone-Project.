@@ -296,6 +296,7 @@ FROM
 
 <img width="519" alt="BACKUP DATABASE - SUCCESSFUL" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/e4165326-261f-4d8d-bbd2-5c6e81462802">
 
+- Created a backup of the original data first. I also did this in Python and Excel in some of my projects.
 
 <br>
 <br>
@@ -313,13 +314,13 @@ FROM
 
 In this step, I will be processing and cleaning the data for exploratory data analysis.
 
-I spent a lot of time on this step, especially in data cleaning in order to ensure data integrity prior to analysis.
+**I spent a lot of time on this step, especially in data cleaning in order to ensure data integrity prior to analysis.**
 
 Working with clean data is very important in order to get valuable insights from our data analysis, 
 because if the data is dirty it will only lead to headaches and inaccurate results.
 
-#### "If the ladder is not leaning against the right wall, every step we take just gets us to the wrong place faster." 
-#### - Stephen Covey
+<img width="787" alt="If the ladder" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/db256c5d-1a04-443e-becc-66af2db57998">
+
 
 <br><br><br>
 

@@ -376,17 +376,44 @@ FROM BikeShare_table;
 
 
 
-## LEADING and TRAILING spaces
+## Deal with LEADING and TRAILING spaces
 
 SQL Query:
 
 ```sql
-SELECT
-  *
-FROM
-  ______
 
+-- REMOVE THE TRAILING AND LEADING SPACES for columns with STRING dtypes only.
+
+UPDATE BikeShare_table
+SET pk_ride_id = TRIM(pk_ride_id);
+
+UPDATE BikeShare_table
+SET rideable_type = TRIM(rideable_type);
+
+UPDATE BikeShare_table
+SET start_station_name = TRIM(start_station_name)
+WHERE start_station_name IS NOT NULL;
+
+UPDATE BikeShare_table
+SET start_station_id = TRIM(start_station_id)
+WHERE start_station_id IS NOT NULL;
+
+UPDATE BikeShare_table
+SET end_station_name = TRIM(end_station_name)
+WHERE end_station_name IS NOT NULL;
+
+UPDATE BikeShare_table
+SET end_station_id = TRIM(end_station_id)
+WHERE end_station_id IS NOT NULL;
+
+UPDATE BikeShare_table
+SET member_casual = TRIM(member_casual);
 ```
+<img width="820" alt="UPDATE SET  TRIM  successful in removing LEADING AND TRAILING SPACES" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/148f297f-a609-48c9-b0bf-a77f4cbcbee8">
+
+
+
+
 
 <br><br>
 

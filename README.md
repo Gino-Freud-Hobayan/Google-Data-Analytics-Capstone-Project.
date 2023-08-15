@@ -542,6 +542,9 @@ FROM
 
 ```
 
+### Inference:
+-  .....
+
 <br><br>
 
 
@@ -558,6 +561,10 @@ FROM
 
 ```
 
+### Inference:
+-  .....
+
+
 <br><br>
 
 
@@ -575,6 +582,9 @@ FROM
 
 ```
 
+### Inference:
+-  .....
+
 <br><br>
 
 
@@ -592,11 +602,38 @@ FROM
 
 ```
 
+### Inference:
+-  .....
+
 <br><br>
 
 
 
-<br><br><br><br><br><br>
+
+## Sample
+
+SQL Query:
+
+```sql
+SELECT
+  *
+FROM
+  ______
+
+```
+
+### Inference:
+-  .....
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 
 # 5. SHARE

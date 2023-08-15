@@ -34,7 +34,17 @@ visualizations.
 The six phases of the data analysis process I learned from the course:
 ![6 phases - Googla DA](https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/f9c7d03b-f6d0-408f-bf37-07c007ef790d)
 
-<br><br><br>
+<br><br>
+
+### **It's very important that we make sure that the dataset is credible and that we perform proper data cleaning in order to get useful and accurate insights.**
+### **Otherwise, it might just lead to headaches and confusion once we get our analysis.**
+
+### **Just like what Mr. Stephen R. Covey said:**
+
+<img width="787" alt="If the ladder" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/db256c5d-1a04-443e-becc-66af2db57998">
+
+
+<br><br><br><br><br>
 
 
 # 1. ASK
@@ -319,10 +329,12 @@ In this step, I will be processing and cleaning the data for exploratory data an
 Working with clean data is very important in order to get valuable insights from our data analysis, 
 because if the data is dirty it will only lead to headaches and inaccurate results.
 
-<img width="787" alt="If the ladder" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/db256c5d-1a04-443e-becc-66af2db57998">
+#### "If the ladder is not leaning against the right wall, every step we take just gets us to the wrong place faster."
+#### - Stephen R. Covey
 
 
 <br><br><br>
+
 
 # DATA CLEANING:
 

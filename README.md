@@ -298,6 +298,7 @@ FROM
 <br>
 <br>
 <br>
+<br>
 
 
 # DATA CLEANING:
@@ -418,13 +419,19 @@ WHERE end_station_id IS NOT NULL;
 UPDATE BikeShare_table
 SET member_casual = TRIM(member_casual);
 ```
+
 <img width="820" alt="UPDATE SET  TRIM  successful in removing LEADING AND TRAILING SPACES" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/148f297f-a609-48c9-b0bf-a77f4cbcbee8">
 
+<br>
+
+
+(It's like pre-processing on Python.)
+
+<img width="608" alt="Preprocess + datacleaning on Python" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/f9a6574a-a296-4856-a26d-1f1257948457">
 
 
 
-
-<br><br>
+<br><br><br><br><br>
 
 
 

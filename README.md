@@ -448,11 +448,17 @@ FROM
 
 
 
-## Address Outliers
+## Addressing Outliers and Anomalies
 
 SQL Query:
 
 ```sql
+
+-- EXAMPLE:
+-- Mean age = 25 yrs old
+-- Outlier = 1 yr old or 80 yrs old
+
+
 SELECT
   *
 FROM

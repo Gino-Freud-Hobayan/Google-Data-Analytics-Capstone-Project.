@@ -193,22 +193,8 @@ Each CSV file consists of 13 columns:
 <img width="716" alt="July 2022 - June 2023 data" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/94f8c4bf-c70b-463e-aea9-28f50a4bee31">
 
 
+<br><br>
 
-
-
-<br><br><br><br><br>
-
-
-
-
-
-# 3. PROCESS
-
-In this step, I will be processing and cleaning the data for exploratory data analysis.
-
-I spent a lot of time on this step, especially in data cleaning in order to ensure data integrity prior to analysis.
-
-<br>
 
 
 ## CREATE DATABASE and CREATE TABLE (SQL)
@@ -316,6 +302,19 @@ FROM
 <br>
 <br>
 <br>
+
+
+
+
+
+
+
+# 3. PROCESS
+
+In this step, I will be processing and cleaning the data for exploratory data analysis.
+
+I spent a lot of time on this step, especially in data cleaning in order to ensure data integrity prior to analysis.
+
 
 
 # DATA CLEANING:
@@ -503,15 +502,15 @@ In this step, I will be **analyzing the data to find patterns, trends, and insig
 
 We will explore the data, and perhaps look at **the total number of rows, distinct values, maximum, minimum, or mean values.**
 
+<br>
+
+## Descriptive Statistics:
 
 <img width="418" alt="Descriptive Stats" src="https://github.com/Gino-Freud-Hobayan/Google-DA-Capstone_Gino/assets/117270964/67d7c213-d721-4119-b789-40ad7e5b20ce">
 
 
 <br><br>
 
-## Descriptive Statistics:
-
-<br>
 
 ## Numerical Descriptive Statistics
 

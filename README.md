@@ -133,13 +133,13 @@ recommended marketing program.
 
 # 2. PREPARE
 
-In this step, I will be preparing and cleaning the data for exploratory data analysis.
+In this step, I will be preparing the data and checking its reliability using the ROCCC analysis.
 
 <br>
 
 ## **Prepare the data:**
 
-1. The Data is located in cloud storage in zip format (CSV file). This data is publicly available and I got access to it when I got the PDF
+1.  The Data is located in cloud storage in zip format (CSV file). This data is publicly available and I got access to it when I got the PDF
 2.  Divvy system data (first-party data) is owned by the City of Chicago and released on a monthly schedule.
 3.  The data is also processed to remove trips that are taken by staff as they service and inspect the system.
 4.  Every ride data is anonymous.
@@ -204,6 +204,8 @@ Each CSV file consists of 13 columns:
 
 
 # 3. PROCESS
+
+In this step, I will be processing and cleaning the data for exploratory data analysis.
 
 
 <br>
@@ -466,9 +468,11 @@ FROM
 
 # 4. ANALYZE
 
+In this step, I will be **analyzing the data to find patterns, trends, and insights.**
+
+
 <img width="418" alt="Descriptive Stats" src="https://github.com/Gino-Freud-Hobayan/Google-DA-Capstone_Gino/assets/117270964/67d7c213-d721-4119-b789-40ad7e5b20ce">
 
-**Descriptive statistics and analysis of the data to find patterns, trends, and insights.**
 
 <br><br>
 

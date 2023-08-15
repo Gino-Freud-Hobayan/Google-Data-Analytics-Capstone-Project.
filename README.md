@@ -484,6 +484,8 @@ FROM
 
 In this step, I will be **analyzing the data to find patterns, trends, and insights.**
 
+We will explore the data, and perhaps look at **the total number of rows, distinct values, maximum, minimum, or mean values.**
+
 
 <img width="418" alt="Descriptive Stats" src="https://github.com/Gino-Freud-Hobayan/Google-DA-Capstone_Gino/assets/117270964/67d7c213-d721-4119-b789-40ad7e5b20ce">
 

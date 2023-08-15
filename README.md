@@ -133,13 +133,13 @@ recommended marketing program.
 
 # 2. PREPARE
 
-In this step, I will be **using Cyclistic's historical trip data to analyze and identify trends.**
+In this step, I will be preparing and cleaning the data for exploratory data analysis.
 
 <br>
 
 ## **Prepare the data:**
 
-1. The Data is located in a cloud storage in zip format (csv file). This data is publicly available and I got access to it when I got the PDF
+1. The Data is located in cloud storage in zip format (CSV file). This data is publicly available and I got access to it when I got the PDF
 2.  Divvy system data (first-party data) is owned by the City of Chicago and released on a monthly schedule.
 3.  The data is also processed to remove trips that are taken by staff as they service and inspect the system.
 4.  Every ride data is anonymous.
@@ -160,7 +160,7 @@ The dataset follows the ROCCC Analysis as described below:
 
 6. Structured data.
 
-Each csv file consists of 13 columns:
+Each CSV file consists of 13 columns:
 
 - ride_id,
 - rideable_type,
@@ -205,13 +205,7 @@ Each csv file consists of 13 columns:
 
 # 3. PROCESS
 
-### **Data Cleaning to ensure data integrity**
 
-<img width="289" alt="Data cleaning img" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/e6e966a8-20ae-49a7-ac73-31b08ef45247">
-
-<br>
-<br>
-<br>
 <br>
 
 
@@ -303,6 +297,13 @@ FROM
 
 # DATA CLEANING:
 
+### **This is done in order to ensure data integrity**
+
+<img width="289" alt="Data cleaning img" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/e6e966a8-20ae-49a7-ac73-31b08ef45247">
+
+<br>
+<br>
+<br>
 <br>
 
 ## Check for Duplicates

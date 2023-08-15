@@ -260,11 +260,28 @@ WITH (
 	);
 
 -- REPEATED THIS SAME PROCESS UNTIL ALL 12 CSV FILES HAVE BEEN UPLOADED.
-
 ```
 
-
 <br>
+
+
+## Count the total number of records that were uploaded
+
+```sql
+SELECT
+	COUNT(*) AS total_num_of_records
+FROM 
+	BikeShare_table;
+```
+
+<img width="845" alt="total_num_of_records" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/fa54742e-354b-4493-8014-56b9b4bb7de7">
+
+### Inference:
+- We're going to be working with 5,779,444 records (5 million + records and 12 months' worth of data)
+
+
+<br><br>
+
 
 
 
@@ -496,11 +513,27 @@ We will explore the data, and perhaps look at **the total number of rows, distin
 
 <br>
 
-## Sample
+## Numerical Descriptive Statistics
 
 SQL Query:
 
 ```sql
+
+/* 
+DESCRIPTIVE STATISTICS
+We will first check the Numerical Descriptive Statistics of our rides
+
+Numerical:
+- Count: It shows the number of values that are not missing in each of the column.
+- Mean : It shows the average of the values in each of the column.
+- Std :  It shows standard deviation of the values in each of the column.
+- Min :  It shows the smallest value in each of the column.
+- Max :  It shows the maximum value in each of the column.
+- 25%, 50%, 75%: The valuescorrespond to the data divisions of 25%, 50% and 75% percentiles.
+
+*/ 
+
+
 SELECT
   *
 FROM

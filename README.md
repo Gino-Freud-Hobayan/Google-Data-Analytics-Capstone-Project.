@@ -279,7 +279,8 @@ FROM
 <img width="752" alt="Head + general view1" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/b76aa0c3-dc17-4205-8bc6-1b1805a07900">
 <img width="229" alt="Head + general view2" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/4540b9be-db1a-4249-a78a-1b385913f396">
 
-
+### Inference:
+- We can clearly see that there are null values in this dataset, we will have to deal with those values to ensure our analysis is accurate.
 
 <br><br><br>
 

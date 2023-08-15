@@ -207,6 +207,7 @@ Each CSV file consists of 13 columns:
 
 In this step, I will be processing and cleaning the data for exploratory data analysis.
 
+I spent a lot of time on this step, especially in data cleaning in order to ensure data integrity prior to analysis.
 
 <br>
 

@@ -372,7 +372,7 @@ FROM BikeShare_table;
 
 #### Inference:
 - Some columns have null values: start_station_name, start_station_id, end_station_name, end_station_id, end_lat, end_lng
-- We will have to deal with these null values as they will affect our data analysis later.
+- We have properly identified which columns have null values in them and how many null values are in total.
 
 <br><br>
 

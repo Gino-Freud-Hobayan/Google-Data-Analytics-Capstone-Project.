@@ -573,6 +573,9 @@ FROM
 
 ### Inference:
 -  .....
+-  ....
+-  ......
+  
 
 <br><br>
 
@@ -677,7 +680,9 @@ Tableau link for the Data visualization:
 1. aa
 2. aaa
 3. aaaa
-4. 
+4. ....
+5. .......
+6. ....
 
 
 
@@ -687,7 +692,7 @@ Tableau link for the Data visualization:
 
 # 6. ACT
 
-In this Final step, I will share and present to stakeholders the summary of my insights/key findings
+In this final step, I will share and present to the stakeholders the summary of my insights/key findings
 that is backed up with compelling data insights and professional data visualizations.
 
 <br>

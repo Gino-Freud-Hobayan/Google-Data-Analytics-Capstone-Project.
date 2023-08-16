@@ -108,6 +108,13 @@ The notoriously detail-oriented executive team will decide whether to approve th
 
 #### Now that I’ve identified the issues, how can I help the stakeholders resolve their questions?
 
+<br><br><br>
+
+**How do annual members and casual riders use Cyclistic bikes differently?**
+
+**What makes casual riders purchase a membership?**
+
+**and how digital media could affect the company's marketing tactics with the goal of converting casual riders into members.**
 
 ![SMART questions](https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/666be9a3-d120-4c8c-b89a-1f5b4daa1f9d)
 
@@ -115,9 +122,10 @@ The notoriously detail-oriented executive team will decide whether to approve th
 
 ## **Business Task:**
 
-**How do annual members and casual riders use Cyclistic bikes differently?**
+### **Analyze the usage patterns and motivations of annual members and casual riders of Cyclistic bike-share, and develop digital marketing strategies to convert more casual riders into annual members.**
 
-**What makes casual riders purchase a membership and how digital media could affect the company's marketing tactics.**
+
+
 
 <br>
 

@@ -167,7 +167,9 @@ The dataset follows the ROCCC Analysis as described below:
 
 <br><br>
 
-6. Structured data.
+6. We are dealing with Structured data.
+
+<img width="896" alt="All of the columns" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/3328e1a6-2d72-4543-a814-ffaab92a4cfa">
 
 Each CSV file consists of 13 columns:
 

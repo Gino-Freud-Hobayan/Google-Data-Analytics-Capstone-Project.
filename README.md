@@ -37,7 +37,7 @@ The six phases of the data analysis process I learned from the course:
 <br><br>
 
 ### **It's very important that we make sure that the dataset is credible and that we perform proper data cleaning in order to get useful and accurate insights.**
-### **Otherwise, it might just lead to headaches and confusion once we get our analysis.**
+### **Otherwise, it might just lead to headaches and confusion once we get to our analysis.**
 
 ### **Just like what Mr. Stephen R. Covey said:**
 

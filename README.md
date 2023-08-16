@@ -506,9 +506,9 @@ SQL Query:
 
 ```sql
 
--- EXAMPLE:
+-- EXAMPLE: Age of people who go to the gym to workout
 -- Mean age = 25 yrs old
--- Outlier = 1 yr old or 80 yrs old
+-- Outlier = 8 yrs old or 80 yrs old
 
 
 SELECT

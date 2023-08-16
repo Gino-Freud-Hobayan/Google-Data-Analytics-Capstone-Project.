@@ -524,6 +524,8 @@ We will explore the data, and perhaps look at **the total number of rows, distin
 <br>
 
 ## Descriptive Statistics:
+- Categorical
+- Numerical
 
 <img width="418" alt="Descriptive Stats" src="https://github.com/Gino-Freud-Hobayan/Google-DA-Capstone_Gino/assets/117270964/67d7c213-d721-4119-b789-40ad7e5b20ce">
 

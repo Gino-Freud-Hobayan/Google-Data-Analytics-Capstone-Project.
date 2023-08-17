@@ -207,8 +207,8 @@ Each CSV file consists of 13 columns:
 
 #### 3. Additionally, the dataset contains a lot of null values thus affecting the accuracy of the analysis.
 
-#### 4. For this analysis, we will only analyze historical trip data from July 2022 to June 2023 (12 csv files).
-#### I will only use the most recent 12 months of data.
+#### 4. For this analysis, we will only analyze historical trip data from July 2022 to June 2023 (12 CSV files).
+#### I will be using the most recent 12 months of data.
  
 <img width="716" alt="July 2022 - June 2023 data" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/94f8c4bf-c70b-463e-aea9-28f50a4bee31">
 
@@ -233,7 +233,7 @@ CREATE DATABASE Bikeshare_database;
 USE Bikeshare_database;
 
 
--- Create table that will hold all the trips data
+-- Create a table that will hold all of the data from the CSV files.
 -- six decimal places for longitude and latitude for accuracy.
 CREATE TABLE BikeShare_table
 (
@@ -253,7 +253,9 @@ CREATE TABLE BikeShare_table
 );
 
 
---- Insert all the data from the .csv file into our database table 'BikeShare_table' for each month
+
+
+--- Insert all the data from the CSV file into our database table 'BikeShare_table' for each month
 
 -- July 2022
 BULK INSERT BikeShare_table
@@ -339,11 +341,13 @@ In this step, I will be processing and cleaning the data for exploratory data an
 Working with clean data is very important in order to get valuable insights from our data analysis, 
 because if the data is dirty it will only lead to headaches and inaccurate results.
 
-#### "If the ladder is not leaning against the right wall, every step we take just gets us to the wrong place faster."
-#### - Stephen R. Covey
+<br>
+
+### **"If the ladder is not leaning against the right wall, every step we take just gets us to the wrong place faster."**
+### **- Stephen R. Covey**
 
 
-<br><br><br>
+<br><br><br><br>
 
 
 # DATA CLEANING:
@@ -554,12 +558,12 @@ DESCRIPTIVE STATISTICS
 We will first check the Numerical Descriptive Statistics of our rides
 
 Numerical:
-- Count: It shows the number of values that are not missing in each of the column.
-- Mean : It shows the average of the values in each of the column.
-- Std :  It shows standard deviation of the values in each of the column.
-- Min :  It shows the smallest value in each of the column.
-- Max :  It shows the maximum value in each of the column.
-- 25%, 50%, 75%: The valuescorrespond to the data divisions of 25%, 50% and 75% percentiles.
+- Count: It shows the number of values that are not missing in each of the columns.
+- Mean: It shows the average of the values in each of the columns.
+- Std:  It shows the standard deviation of the values in each of the columns.
+- Min:  It shows the smallest value in each of the columns.
+- Max:  It shows the maximum value in each of the columns.
+- 25%, 50%, 75%: The values correspond to the data divisions of 25%, 50%, and 75% percentiles.
 
 */ 
 
@@ -677,9 +681,9 @@ Tableau link for the Data visualization:
 <br>
 
 ### Insights/Key Findings:
-1. aa
-2. aaa
-3. aaaa
+1. .......
+2. ...
+3. .......
 4. ....
 5. .......
 6. ....
@@ -706,12 +710,12 @@ that is backed up with compelling data insights and professional data visualizat
 
 ### Recommendations:
 
-1. aa
-2. aaa
-3. aaaa
-4. aaaaa
-5. bbb
-6. bbbb
+1. .......
+2. .......
+3. .......
+4. .......
+5. .......
+6. .......
 
 
 

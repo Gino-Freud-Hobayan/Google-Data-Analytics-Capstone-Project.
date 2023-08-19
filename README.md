@@ -285,7 +285,7 @@ FROM
 <img width="845" alt="total_num_of_records" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/fa54742e-354b-4493-8014-56b9b4bb7de7">
 
 ### Inference:
-- We're going to be working with 5,779,444 records (5 million + records and 12 months' worth of data)
+- We're going to be working with 5,779,444 records (More than 5 million records and 12 months' worth of data)
 
 
 <br><br>

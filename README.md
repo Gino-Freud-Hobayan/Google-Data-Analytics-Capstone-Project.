@@ -548,6 +548,9 @@ We will explore the data, and perhaps look at **the total number of rows, distin
 
 
 ## Numerical Descriptive Statistics
+This is similar to .describe() in Python
+
+<br>
 
 SQL Query:
 

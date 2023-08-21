@@ -548,7 +548,9 @@ We will explore the data, and perhaps look at **the total number of rows, distin
 
 
 ## Numerical Descriptive Statistics
-This is similar to .describe() in Python
+This is similar to **.describe()** in Python
+
+This includes the **Five-number summary: min, 25%, 50% (median), 75%, and max**
 
 <br>
 

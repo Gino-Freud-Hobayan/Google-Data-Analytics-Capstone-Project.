@@ -401,8 +401,9 @@ If this condition is met, return the value "1". (To act as a counter)
 */
 
 
+-- Check all our columns for N/A or NULL values.
 SELECT
-	COUNT (*) AS total_records,
+	COUNT (*) AS TOTAL_NUM_OF_RECORDS,
 	COUNT (CASE WHEN pk_ride_id IS NULL OR pk_ride_id = 'NA' OR pk_ride_id = 'N/A' OR LEN(pk_ride_id) = 0 THEN 1 END) AS pk_ride_id,
 	COUNT (CASE WHEN rideable_type IS NULL OR rideable_type = 'NA' OR rideable_type = 'N/A' OR LEN(rideable_type) = 0 THEN 1 END) AS rideable_type,
 	COUNT (CASE WHEN started_at IS NULL OR ISDATE(started_at) = 0 THEN 1 END) AS started_at,
@@ -416,16 +417,19 @@ SELECT
 	COUNT (CASE WHEN end_lat IS NULL THEN 1 END) AS end_lat,
 	COUNT (CASE WHEN end_lng IS NULL THEN 1 END) AS end_lng,
 	COUNT (CASE WHEN member_casual IS NULL OR member_casual = 'NA' OR member_casual = 'N/A' OR LEN(member_casual) = 0 THEN 1 END) AS member_casual
-FROM BikeShare_table;
+FROM 
+	BikeShare_table;
 
 ```
-<img width="815" alt="CHECK ALL COLUMNS FOR NULL VALUES" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/9f130457-7a19-45b2-b872-381b1ca84ed0">
+<img width="849" alt="CHECK ALL COLUMNS w NULL VALUES + TOTAL NUM OF RECORDS" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/7d36b6be-0251-4d74-bc73-1a41e232e5a9">
 
 
 
 #### Inference:
 - Some columns have null values: start_station_name, start_station_id, end_station_name, end_station_id, end_lat, end_lng
 - We have properly identified which columns have null values in them and how many null values are in total.
+
+	That's the first step, identify the problem, now we can deal with those columns with null values.
 
 <br><br>
 

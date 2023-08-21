@@ -542,8 +542,8 @@ We will explore the data, and perhaps look at **the total number of rows, distin
 <br>
 
 ## Descriptive Statistics:
-- Categorical
-- Numerical
+- Categorical data
+- Numerical data
 
 <img width="418" alt="Descriptive Stats" src="https://github.com/Gino-Freud-Hobayan/Google-DA-Capstone_Gino/assets/117270964/67d7c213-d721-4119-b789-40ad7e5b20ce">
 
@@ -551,10 +551,10 @@ We will explore the data, and perhaps look at **the total number of rows, distin
 <br><br>
 
 
-## Numerical Descriptive Statistics
+# Descriptive Statistics (Numerical data)
 This is similar to **.describe()** in Python
 
-This includes the **Five-number summary: min, 25%, 50% (median), 75%, and max**
+This includes the **Five-number summary: min, 25% (Q1), 50% (Q2/median), 75% (Q3), and max**
 
 <br>
 
@@ -566,13 +566,15 @@ SQL Query:
 DESCRIPTIVE STATISTICS
 We will first check the Numerical Descriptive Statistics of our rides
 
-Numerical:
 - Count: It shows the number of values that are not missing in each of the columns.
 - Mean: It shows the average of the values in each of the columns.
 - Std:  It shows the standard deviation of the values in each of the columns.
+
 - Min:  It shows the smallest value in each of the columns.
+- 25% (Q1): Median of the first half of the data
+- 50% (Q2): Median 
+- 75% (Q3): Median of the first half of the data
 - Max:  It shows the maximum value in each of the columns.
-- 25%, 50%, 75%: The values correspond to the data divisions of 25%, 50%, and 75% percentiles.
 
 */ 
 

@@ -556,6 +556,10 @@ This is similar to **.describe()** in Python
 
 This includes the **Five-number summary: min, 25% (Q1), 50% (Q2/median), 75% (Q3), and max**
 
+
+![five num summary + boxplot](https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/bd19041a-65b1-4e6e-959b-e984e74a26d4)
+
+
 <br>
 
 SQL Query:
@@ -573,7 +577,7 @@ We will first check the Numerical Descriptive Statistics of our rides
 - Min:  It shows the smallest value in each of the columns.
 - 25% (Q1): Median of the first half of the data
 - 50% (Q2): Median 
-- 75% (Q3): Median of the first half of the data
+- 75% (Q3): Median of the second half of the data
 - Max:  It shows the maximum value in each of the columns.
 
 */ 

@@ -4,6 +4,11 @@
 
 <img width="923" alt="Google DA - professional cert" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/2be43210-428b-4650-a52e-4a35b0464dce">
 
+<br><br>
+
+# Descriptive and Diagnostic Analytics on Bike-share data
+- **Descriptive Analytics** tells you **WHAT** happened in the past. 
+- **Diagnostic Analytics** helps you understand **WHY** something happened in the past.
 
 <br><br><br>
 

@@ -380,9 +380,12 @@ GROUP BY
 HAVING COUNT(pk_ride_id) > 1;
 
 
--- No duplicates on pk_ride_id
+-- We used HAVING since WHERE does not work for aggregate like: COUNT(column name)
+
+-- ANSWER: No duplicates found on pk_ride_id
 
 ```
+
 
 <img width="160" alt="NO DUPLICATES - pk_ride_id" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone-Project./assets/117270964/0271c5d7-c78f-4bc1-891e-34ff9896104d">
 

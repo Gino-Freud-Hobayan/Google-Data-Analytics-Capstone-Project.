@@ -403,13 +403,17 @@ WHEN the column is:
 - IS NULL 
 - OR  ('NA') 
 - OR ('N/A') 
-- OR LEN(column) = zero 
+- OR LEN(column) = zero
+- ISDATE(started_at/ended_at) = 0
 
-WHEN this condition is met, THEN return the value "1". (To act as a counter for the number of reps)
+WHEN this condition is met, THEN return the value "1".
+(To act as a counter for the number of reps)
+
 */
 
 
 -- Check all our columns for N/A or NULL values.
+-- We'll be using CASE Statements to act as a counter
 SELECT
 	COUNT (*) AS TOTAL_NUM_OF_RECORDS,
 	COUNT (CASE WHEN pk_ride_id IS NULL OR pk_ride_id = 'NA' OR pk_ride_id = 'N/A' OR LEN(pk_ride_id) = 0 THEN 1 END) AS pk_ride_id,

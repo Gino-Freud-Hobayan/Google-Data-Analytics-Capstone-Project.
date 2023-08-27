@@ -405,7 +405,7 @@ WHEN the column is:
 - OR ('N/A') 
 - OR LEN(column) = zero 
 
-If this condition is met, return the value "1". (To act as a counter)
+If this condition is met, THEN return the value "1". (To act as a counter for the number of reps)
 */
 
 

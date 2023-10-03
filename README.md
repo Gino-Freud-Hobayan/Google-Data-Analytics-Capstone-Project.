@@ -1,6 +1,6 @@
 # Google Data Analytics Professional Certificate - Capstone Project 
 
-## By: Gino Freud D. Hobayan  (https://linktr.ee/ginohobayan)
+### By: Gino Freud D. Hobayan  (https://gino-freud-hobayan.github.io/)
 
 <img width="923" alt="Google DA - professional cert" src="https://github.com/Gino-Freud-Hobayan/Google-Data-Analytics-Capstone_Gino/assets/117270964/2be43210-428b-4650-a52e-4a35b0464dce">
 
